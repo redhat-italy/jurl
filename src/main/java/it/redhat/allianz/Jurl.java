@@ -104,6 +104,7 @@ public class Jurl {
                     pwd  = (restOfLine.split(",")[0]);
                 }
             }
+        br.close();
 
         return pwd;
     }
